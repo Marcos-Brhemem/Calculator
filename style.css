@@ -8,7 +8,7 @@
     --bg-color: #212529;
     --border-color: #666;
     --font-color: #f1f5f9;
-    --primary-color: #4dff91;
+    --primary-color: #9792e3;
     --error-color: #ff0043;
   }
   
@@ -34,11 +34,13 @@
     background-color: var(--bg-color);
     border: .125rem solid var(--font-color);
     color: var(--font-color);
+    border: none;
+    font-size: 27px;
+    cursor: pointer;
   }
   
   #themeSwitcher:hover {
-    background-color: var(--font-color);
-    color: var(--bg-color);
+    background-color: transparent;
   }
   
   button {
@@ -97,6 +99,11 @@
     height: 4.25rem;
     width: 6rem;
   }
+
+  .calc{
+    font-size: 25px;
+    margin-right: 340px;
+  }
   
   .flex {
     display: flex;
@@ -118,3 +125,4 @@
     border-color: var(--primary-color) !important;
     color: var(--primary-color) !important;
   }
+

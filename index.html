@@ -7,15 +7,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
-  <title>Projeto Prático Guiado 1</title>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <title>Calculator</title>
   <link rel="stylesheet" href="style.css">
   <script src="./index.js" defer></script>
 </head>
 <body>
   <main data-theme="dark">
     <header class="flex align-center justify-between">
-      <h1>Calc.js</h1>
-      <button id="themeSwitcher">Switch Theme Dark/Light</button>
+      <h1>Calculator</h1> <ion-icon class="calc" name="calculator"></ion-icon>
+      <button id="themeSwitcher"><ion-icon name="contrast-outline"></ion-icon></button>
     </header>
     <input type="text" id="input">
     <div id="keys">
